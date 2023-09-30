@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+.container{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 20px;
+}
+.card{
+	background-color: #fafafa;
+	position: relative;
+	border: 10px solid #ccc;
+	border-radius: 20px;
+	
+}
+.date{
+	padding: 10px;
+	position: absolute;
+	right: 0;
+}
+.division{
+	padding-top: 50px;
+}
+.heading{
+	font-size: 1.5rem;
+}
+.para{
+	font-size: 0.75rem;
+}
+.skill{
+	width: fit-content;
+	background-color: #8C8C8D;
+	font-size: 0.5rem;
+}
