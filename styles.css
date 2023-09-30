@@ -1,5 +1,8 @@
 /*  your css code here. If applicable */
-.container{
+body{
+	background-color: rgb(250, 250, 250);
+}
+.cards-wrapper{
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	grid-gap: 20px;
@@ -20,10 +23,10 @@
 	padding-top: 50px;
 }
 .heading{
-	font-size: 1.5rem;
+	font-size: 36px;
 }
 .para{
-	font-size: 0.75rem;
+	font-size: 18px;
 }
 .skill{
 	width: fit-content;
